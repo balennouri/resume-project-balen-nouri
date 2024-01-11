@@ -70,10 +70,6 @@ header {
     margin: 0;
 }
 
-.heading {
-    margin-left: 50px;
-}
-
 .logo {
     background: url(../images/meself.png);
     background-position: center;
@@ -91,6 +87,7 @@ header {
     font-size: 46px;
     margin-top: 50px;
     color: #fff;
+    text-align: center;
 }
 
 .title {
@@ -100,6 +97,7 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+    text-align: center;
 }
 
 .list-inline-item:not(:last-child) {
@@ -207,4 +205,15 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/*------------------------------------Thee reason*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+   margin-bottom: 15px; 
 }
