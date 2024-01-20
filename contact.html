@@ -15,14 +15,15 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
     <!-- EmailJS SDK -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
-    <script type="text/javascript">
-        // Initialize EmailJS
-        (function () {
-            emailjs.init("2zt7RDVuFMHijrP5d");
-        })();
-    </script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("2zt7RDVuFMHijrP5d");
+  emailjs.send("gmail", "balennouri",{name: "Balen", notes: "The Project that i want is..."});
+})();
+</script>
     <!--Title and Favicon-->
     <title>Balen Nouri</title>
     <link rel="icon" type="image/png"
@@ -138,7 +139,6 @@
         </div>
 
     </footer>
-    <script src="assets/js/email.js"></script>
 </body>
 
 </html>
